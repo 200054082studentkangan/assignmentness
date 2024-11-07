@@ -1,7 +1,7 @@
 from pyscript import document  # webpage module links
 # your roll_dice function should be saved in a file named 'dice.py'
 # uncomment the next line when you have this prepared
-# import dice
+import dice
 
 
 # GLOBAL (script-wide) variable
