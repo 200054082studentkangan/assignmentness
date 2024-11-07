@@ -9,6 +9,7 @@ import dice
 dice_type = "Coin"
 
 
+
 def select_face_option(event):
     global dice_type  # use global var named dice_type
     ...  # replace with your own code
