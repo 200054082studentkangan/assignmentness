@@ -29,6 +29,32 @@
         <!-- Start of your code -->
         <p> sup cunts</p>
         <p>time to gamble</p>
+        <form  action="/action_page.php">
+            <br>
+            <P>Choose a die type</P>
+            <label for="diesides">Die type:</label>
+           
+            <select id="diesides" name="diesides">
+                <option value="D2"> D2</option>
+                <option value="D4">D4</option>
+                <option value="D6">D6</option>
+                <option value="D8">D8</option>
+                <option value="D10">D10</option>
+                <option value="D12">D12</option>
+                <option value="D20" selected>D20</option> 
+                <option value="D100">D100</option>
+                <option value="Other">Other</option>
+                
+            </select>
+            <br/><br/>
+            <p>How many times do you wanna roll em?</p>
+            <label for="rolltimes?">number of dice rolls:</label> 
+            <input type="number" id="rolltimes">
+            <br/><br/>
+            
+            <input type="submit" value="Submit">
+        </form>
+        <div id="roll-history"></div>
 
 
 
