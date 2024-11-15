@@ -12,7 +12,7 @@ dice_type = "Coin"
 
 def select_face_option(event):
     global dice_type  # use global var named dice_type
-    
+
     dice_type = document.getElementById("diesides").value 
     print (dice_type)
 
@@ -20,7 +20,25 @@ def select_face_option(event):
 def roll_all_dice(event):
     global dice_type  # use global var named dice_type
     ...  # replace with your own code
-
+    rolltimes = document.getElementById("diesides").value 
+    rolltimes = int(rolltimes)  
+    #document.querySelector("div#roll-history").innerHTML = ""
+    if dice_type == "D2":
+        dice_type = 2 
+    elif dice_type == "D4":
+        dice_type = 4 
+    elif dice_type == "D6":
+        dice_type= 6
+    elif dice_type == "D8":
+        dice_type = 8
+    elif dice_type== "D10":
+        dice_type = 10
+    elif dice_type == "D12":
+        dice_type = 12
+    elif dice_type == "D20":
+        dice_type = 20 
+    elif dice_type == "D100":
+        dice_type = 100
 
 def clear_history(event):
     # this finds the div tag with id attribute 'roll-history' and clears whatever is inside
