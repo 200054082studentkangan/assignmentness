@@ -20,7 +20,7 @@ def select_face_option(event):
 def roll_all_dice(event):
     global dice_type  # use global var named dice_type
     ...  # replace with your own code
-    rolltimes = document.getElementById("diesides").value 
+    rolltimes = document.getElementById("rolltimes").value 
     rolltimes = int(rolltimes)  
     #document.querySelector("div#roll-history").innerHTML = ""
     if dice_type == "D2":
