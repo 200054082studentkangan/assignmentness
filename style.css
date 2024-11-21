@@ -4,6 +4,8 @@
     font-size:larger;
     border-width: 2px;
     border-style: solid;
-    border-color:saddlebrown
+    border-color:saddlebrown;
+    background-color:burlywood;
+    width:fit-content;
     
 }
