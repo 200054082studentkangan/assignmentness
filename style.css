@@ -2,6 +2,8 @@
     text-align: right;
     color:darkorange;
     font-size:larger;
-    border: 2px solid burlywood ;
+    border-width: 2px;
+    border-style: solid;
     border-color:saddlebrown
+    
 }
